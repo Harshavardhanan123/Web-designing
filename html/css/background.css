@@ -1,0 +1,32 @@
+html {
+	height: 100%;
+	max-height: 250px;
+	width: 250px;
+	background-color: hsla(200,40%,30%,.4);
+	background-image:
+    url('https://th.bing.com/th/id/R.5f61a1bfb680a9741b0347893d821d02?rik=vZV%2bb%2bDn%2bBykaQ&riu=http%3a%2f%2f1.bp.blogspot.com%2f-V61pwc30yx0%2fUIEaLB7P64I%2fAAAAAAAAB3M%2f-2g6_B8a-3I%2fs640%2fIMG_1051a.jpg&ehk=6d2fpAarEW4EIMgxyFULNlt32NndJzFmlEBb1Is2fCc%3d&risl=&pid=ImgRaw&r=0'),
+    url('https://www.fusionmagazine.org/wp-content/uploads/2015/10/clouds_elias.jpg');
+    
+        
+	background-repeat: repeat-x;
+	background-position: 0 60%,
+    0 60%;
+    
+	background-size:
+    12000px,
+    8000px;
+	animation: 5s animate infinite linear;
+	}
+
+@keyframes animate {
+    0%{
+        background-position: 
+        10000px 60%,
+        8000px 60%;
+    }
+	100% {
+		background-position: 
+        11000px 60%,
+        2000px 60%;
+		}
+	}
